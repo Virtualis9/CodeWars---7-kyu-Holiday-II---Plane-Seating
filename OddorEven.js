@@ -29,8 +29,6 @@ function oddOrEven(array) {
   }else if(sum % 2 != 0)
     console.log(sum)
     return 'odd'
-     
-  return;
 }
   
     
