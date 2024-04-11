@@ -15,14 +15,23 @@
 // Output: "even"
 // Have fun!
 
+
 function oddOrEven(array) {
-    if (array === 0 || array % 2) {
-      return 'even'
-    }else if (array % 2 != 0 ){
-      return 'odd'
-      }
-    return
-      
-    }
+  console.log(array)
+  const sum = array.reduce((a, b) => a + b, 0)
+  console.log(sum)
+  if (sum === 0){
+    console.log(sum)
+    return 'even'
+  }else if (sum % 2 === 0){
+    console.log(sum)
+    return 'even'
+  }else if(sum % 2 != 0)
+    console.log(sum)
+    return 'odd'
+     
+  return;
+}
+  
     
     
